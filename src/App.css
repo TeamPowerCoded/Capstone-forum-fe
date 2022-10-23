@@ -1,0 +1,219 @@
+/** NAVIGATION BAR **/
+.navbar-brand > span, .brand-title > span{
+  font-family: var(--logo-font);
+  font-size: 25px;
+}
+
+.navbar{
+  background-color: var(--brand-bg);
+  transition: all 0.3s;
+  border-bottom: 1px solid white;
+}
+
+.nav-link{
+  font-size: 10pt !important;
+}
+
+/** HOME PAGE **/
+
+.hero{
+  background: url('https://wallpaperaccess.com/full/1291020.jpg') no-repeat  center/cover;
+  box-shadow:inset 0 0 0 2000px rgba(48, 57, 82, 0.3);
+  height: 100vh;
+}
+
+
+.hero-overlay{
+  background-color: rgba(0,0,0,0.6);
+  height:100%;
+  width: 100%;
+}
+
+.hero-main-title{
+  font-family: 'Prosto One', cursive;
+  color:#fff;
+}
+
+/** NEWS **/
+
+.home-news{
+  background-color: #0f0e0e;
+}
+
+.right-stick{
+  display:block;
+  height: 2px;
+  background-color:var(--color-text-secondary);
+}
+
+.game-image{
+  width:100%;
+  height: 250px;
+}
+
+.post-container{
+  background-color: #131111;
+  border-bottom: 1px solid gray;
+}
+
+.card-title{
+color: var(--color-text-secondary);
+}
+.post-category {
+  font-size: 7pt;
+  color: rgb(255, 255, 255);
+}
+
+.open-thread{
+  background-color:#0f0e0e;
+  padding: 3px 8px;
+  color:rgb(87, 85, 85)
+  
+}
+.open-thread:hover{
+  background-color:#000000;
+  padding: 3px 8px;
+  color:rgb(197, 195, 195)
+  
+}
+/** Forum **/
+
+.forum-hero-container{
+ 
+  background: url('https://i.pinimg.com/originals/bc/87/2f/bc872ff55d2a0d8dcb069a19d7519427.jpg') no-repeat  center/cover;
+  
+}
+.post-index{
+  color: var(  --color-text-secondary);
+}
+
+/** PAGINATION **/
+
+.paginationBttns, .previousBttn, .nextBttn{
+  padding: 30px 0px;
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.paginationBttns{
+  width: 80%;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start; 
+}
+
+.paginationBttns a{
+  padding: 12px;
+  margin: 2px;
+  font-size: 12pt;
+}
+
+.paginationBttns a:hover{
+  color: var(--color-text-secondary) !important;
+}
+
+.paginationActive a{
+  color: var(--color-text-secondary) !important;
+  font-weight: bold;
+  font-size: 14pt;
+}
+/**COMMENT SECTION**/
+
+.comment-section{
+  background-color:#74baff4a !important;
+}
+.user-info{
+  font-size:9pt;
+}
+
+.comment-user-image{
+  width:50px;
+}
+
+.comment-button:hover{
+  cursor:pointer;
+  opacity:0.6;
+}
+
+.post-user-details{
+  background-color:rgba(235, 235, 235, 0.812);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  width:200px;
+}
+.post-details-container{
+  background-color:rgb(255, 255, 255);
+  
+}
+.comment-actions-details{
+  background-color:rgb(255, 255, 255);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/** About us **/
+.about-us{
+  background-color: #0f0e0e;
+
+}
+.about-container{
+  padding-top: 165px;
+ 
+}
+.our-partners{
+  background-color: #0f0e0e;
+}
+
+/**POST**/
+.post-details small{
+  color:rgb(171, 171, 171);
+  font-size: 9pt;
+}
+.user-role {
+  font-size:7pt;
+}
+
+.edit-post small:hover{
+color: var(--color-text-secondary);
+transition: 0.2s;
+
+cursor: pointer;
+}
+
+.delete-post small:hover{
+  color: red;
+  transition: 0.2s;
+
+  cursor: pointer;
+}
+
+.post-hover:hover{
+  background-color:rgb(238, 238, 238);
+  transition: 0.4s;
+}
+.post-title:hover{
+  color: rgb(69, 69, 208) !important;
+  cursor: pointer;
+}
+
+/** USER PROFILE**/
+.userprofile{
+  width: 100%;
+  height: 320px;
+}
+.user-dashboard{
+  color: rgb(97, 96, 96);
+  font-size: 8pt;
+  text-align:center;
+}
+
+.dropdown-toggle::after {
+  color: var(--color-text-secondary) !important;
+}
+
+#dropdown-basic-button{
+  border:none;
+  outline:none;
+}

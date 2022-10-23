@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Prosto+One&family=Zen+Dots&display=swap');
+
+/***** INITIAL SETUP *****/
+
+:root{
+  /*font style*/
+  --logo-font: 'Zen Dots', cursive;
+  --normal-font: 'Montserrat', serif;
+
+  /*color*/
+  --color-white: #fff;
+  --color-text-secondary: #55efc4;
+}
+
+body{
+  font-family: var(--normal-font);
+  background-color:#ebe4e4;
+  
+}
+
+.color-text-secondary{
+  color: var(--color-text-secondary);
+}
+
+/** Nav bypass**/
+
+/* .active{
+  border-bottom: 1px solid var(--color-text-secondary) !important
+}
+.nav-link:hover {
+  border-bottom: 1px solid var(--color-text-secondary) !important;
+} */
+
+/** Custom BTNS **/
+.custom-btn{
+
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  outline: 0;
+  padding: 7px 35px;
+  display: inline-block;
+  transform: skew(-21deg);
+
+}
+
+.custom-btn > span {
+  display: inline-block;
+  transform: skew(21deg);
+}
+
+
+.login-btn{
+  background: #0079c1;
+  color: #fff;
+}
+
+.login-btn:hover{
+  background: #0069a8 !important;
+  color: #e9e6e6 !important;
+
+
+}
+
+.signup-btn{
+  background: #ffffff;
+  color: #000000;
+}
+
+.signup-btn:hover{
+  background: #dddddd !important;
+  color: #232222 !important;
+}
+
+.join-btn{
+  padding: 13px 35px;
+  color: #000;
+  background-color: var(--color-text-secondary)
+}
+.join-btn:hover{
+  color: #000 !important;
+  background-color: #49d2ab !important;
+}
+
+/**NAV COVERUP**/
